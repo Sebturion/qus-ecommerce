@@ -1,0 +1,31 @@
+.navbar {
+  height: 70px;
+  background-color: #596d18;
+  padding: 0 20px;
+}
+.links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+.links a:hover {
+  background-color: #dfdb98;
+  color: #596d18; /* Cambiar el color en hover */
+}
+.text-link {
+  line-height: 50px;
+  font-family: 'Inter';
+}
+.icon-link {
+  display: inline-flex;
+}
+.links-right{
+  margin-left: auto;
+}
